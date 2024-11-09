@@ -1,0 +1,17 @@
+<!-- android/app/src/main/res/drawable/launch_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#F56504"
+            android:endColor="#F59C04"
+            android:angle="90"/>
+        </shape>
+    </item>
+    <!-- Optional: Add app logo or other elements -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/> <!-- Replace with your logo -->
+    </item>
+</layer-list>

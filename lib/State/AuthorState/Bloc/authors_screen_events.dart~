@@ -1,0 +1,10 @@
+import 'package:equatable/equatable.dart';
+
+abstract class AuthorsScreenEvent extends Equatable {
+  const AuthorsScreenEvent();
+}
+
+class FetchAuthorsEvent extends AuthorsScreenEvent {
+  @override
+  List<Object> get props => [];
+}
